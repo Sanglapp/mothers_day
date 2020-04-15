@@ -1,0 +1,163 @@
+@font-face{
+    font-family:"op-sans-bold";
+    src:url(../assets/fonts/OpenSans-Bold.ttf);
+    
+}
+@font-face{
+    font-family:"lobster";
+    src:url(../assets/fonts/Lobster-Regular.ttf);
+    
+}
+@font-face{
+    font-family:"comic";
+    src:url(../assets/fonts/ComicNeue-Regular.ttf);
+    
+}
+
+:root{
+    --yellow: #FAD633;
+    --black:#252525;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;   
+}
+.background{
+    
+    background-image: linear-gradient(rgba(5, 1, 1, 0.65), rgba(202, 196, 196, 0.65)),url(../assets/img/back10.jpg);
+    height: 1000px;
+    
+		
+}
+.baby{
+   width: 30%;
+   position: absolute;
+   left: 70%;
+}
+.mom{
+
+    width: 30%;
+    position: absolute;
+    left: 425px;
+    top: 200px;
+}
+
+.happy{
+    position: absolute;
+    left: 0;
+    top: 4%;
+    color: orchid;
+    /* opacity: 0.9; */
+    font-family:arial;
+    font-weight: bold;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-transform: uppercase;
+    font-size: 115px;
+}
+.mothers{
+    position: absolute;
+    left: 11%;
+    top: 11%;
+    color:white;
+    /* opacity: 0.8; */
+    font-family: Arial;
+    font-weight: bold;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-transform: uppercase;
+    font-size: 70px;
+    
+}
+.day{
+    position: absolute;
+    left: 19%;
+    top: 31%;
+    color: blue;
+    opacity: 0.7;
+    font-family: Arial;
+    font-weight: bold;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-transform: uppercase;
+    font-size: 100px;
+    
+}
+.love{
+    position: absolute;
+    top: 67%;
+    left:37%;
+   
+    
+}
+.love::first-letter{
+    font-size: 80px;
+}
+.care{
+    position: absolute;
+    top: 73%;
+    left:30%;
+     
+}
+.care::first-letter{
+    font-size:80px ;
+}
+.great{
+    position: absolute;
+    top: 79%;
+    left:24%;
+      
+}
+.great::first-letter{
+    font-size: 80px;
+}
+.caption{
+    font-family:"lobster";
+    font-size: 35px;
+    word-spacing: 5px;
+    letter-spacing:2px;
+    font-weight: bold;
+    color:black;
+    
+}
+.quote{
+    position: absolute;
+    font-size: 25px;
+    font-family: "comic";
+    font-weight: bold;
+    top:50%;
+    left: 77%;
+    color: yellow;
+}
+.space{
+    position: relative;
+    left: 20%;
+}
+.space1{
+    position: relative;
+    left: 10%;
+}
+
+.button{
+    position: absolute;
+    left: 46%;
+    top:94%;
+    font-size: 10px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 0 90x #999;
+}
+.button:hover{
+    background-color:#3e8e41;
+}
+.button:active{
+    background-color: rgb(48, 68, 184);
+    box-shadow: 0 5px rgb(219, 23, 23);
+    transform: translateY(4px);
+}
+.button1{
+    color:white;
+}
